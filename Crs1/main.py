@@ -46,12 +46,8 @@ print(kilograms,"kilograms and",round(grams,3),"grams")
 #6
 dig4=str()
 dig6=str()
-i=0
-while(i<4):
+for i in range(4):
     dig4+=str(random.randint(0,9))
-    i+=1
-i=0
-while(i<6):
+for i in range(6):
     dig6+=str(random.randint(1,6))
-    i+=1
 print(str(dig4),str(dig6))
