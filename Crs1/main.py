@@ -43,10 +43,10 @@ grams = grams - kilograms*1000
 print(kilograms,"kilograms and",round(grams,3),"grams")
 
 #6
+dig3=str()
 dig4=str()
-dig6=str()
 for i in range(3):
-    dig4+=str(random.randint(0,9))
+    dig3+=str(random.randint(0,9))
 for i in range(4):
-    dig6+=str(random.randint(1,6))
-print(str(dig4),str(dig6))
+    dig4+=str(random.randint(1,6))
+print(str(dig3),str(dig4))
