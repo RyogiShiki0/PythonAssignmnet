@@ -1,4 +1,5 @@
 ########### Exercise 1 ###########
+import random
 
 name = "Zongru Li"
 print("Hello,",name)
@@ -41,3 +42,16 @@ grams = lots * 13.3
 kilograms = int(grams/1000)
 grams = grams - kilograms*1000
 print(kilograms,"kilograms and",round(grams,3),"grams")
+
+#6
+dig4=str()
+dig6=str()
+i=0
+while(i<4):
+    dig4+=str(random.randint(0,9))
+    i+=1
+i=0
+while(i<6):
+    dig6+=str(random.randint(1,6))
+    i+=1
+print(str(dig4),str(dig6))
