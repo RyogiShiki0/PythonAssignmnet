@@ -31,7 +31,6 @@ print("The product is:",num1*num2*num3)
 print("The average is:",(num1+num2+num3)/3)
 
 #5
-from decimal import *
 talents = float(input("enter talents: "))
 pounds = float(input("enter pounds: "))
 lots = float(input("enter lots: "))
