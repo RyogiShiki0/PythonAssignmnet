@@ -48,3 +48,12 @@ while(num<5):
 if(num==5):
     print("Access denied")
 #######Exercise 6#######
+N = int(input("how many random points to generate:"))
+n=0
+for i in range(N):
+    x=round(random.uniform(-1,1), 3)
+    y=round(random.uniform(-1,1), 3)
+    if((x*x+y*y)<1):
+        n+=1
+pi = 4*n/N
+print(pi)
