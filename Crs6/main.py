@@ -54,6 +54,6 @@ for i in range(2):
     price=int(input(f'Enter the price of pizza{i+1}: '))
     value[i]=calc(diameter,price)
 if(value[0]<value[1]):
-    print(f'The first one provides better value for money,{value[0]}>{value[1]}')
+    print(f'The first one provides better value for money,{value[0]}<{value[1]}')
 else:
-    print(f'The second one provides better value for money,{value[0]}<{value[1]}')
+    print(f'The second one provides better value for money,{value[0]}>{value[1]}')
